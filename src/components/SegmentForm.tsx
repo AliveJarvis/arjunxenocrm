@@ -286,7 +286,7 @@ export default function SegmentForm() {
               id="aiPrompt"
               value={aiPrompt}
               onChange={(e) => setAiPrompt(e.target.value)}
-              placeholder="e.g., People who haven't shopped in 6 months and spent over 5000"
+              placeholder="e.g., People who have their preffered category Sports and spent over 5000"
               className="flex-1"
             />
             <Button type="button" onClick={generateRulesFromAI} className="transition-all hover:scale-105">
